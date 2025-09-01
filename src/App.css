@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div button {
+  display: inline-block;
+  margin: 5px ;
+  margin-top: 22px;
+  padding: 6px;
+  color: white;
+  background-color: rgb(16, 8, 234);
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.count{
+  font-size: 52px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.816);
+}
+.error-msg {
+  display: flex;
+  font-size: 32px;
+  color: red;
+  margin-top: 12px;
+  background-color: black;
+  padding: 6px;
+  border-radius: 8px;
+}
